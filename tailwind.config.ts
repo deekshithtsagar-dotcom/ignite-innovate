@@ -22,10 +22,12 @@ export default {
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
+          hover: "hsl(var(--primary-hover))",
         },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
           foreground: "hsl(var(--secondary-foreground))",
+          hover: "hsl(var(--secondary-hover))",
         },
         destructive: {
           DEFAULT: "hsl(var(--destructive))",
@@ -38,6 +40,15 @@ export default {
         accent: {
           DEFAULT: "hsl(var(--accent))",
           foreground: "hsl(var(--accent-foreground))",
+          hover: "hsl(var(--accent-hover))",
+        },
+        success: {
+          DEFAULT: "hsl(var(--success))",
+          foreground: "hsl(var(--success-foreground))",
+        },
+        warning: {
+          DEFAULT: "hsl(var(--warning))",
+          foreground: "hsl(var(--warning-foreground))",
         },
         popover: {
           DEFAULT: "hsl(var(--popover))",
@@ -57,6 +68,10 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+      },
+      fontFamily: {
+        inter: ['Inter', 'sans-serif'],
+        sans: ['Inter', 'sans-serif'],
       },
       borderRadius: {
         lg: "var(--radius)",
@@ -84,6 +99,12 @@ export default {
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+      },
+      boxShadow: {
+        'soft': '0 1px 3px 0 hsl(215 25% 27% / 0.1), 0 1px 2px 0 hsl(215 25% 27% / 0.06)',
+        'medium': '0 4px 6px -1px hsl(215 25% 27% / 0.1), 0 2px 4px -1px hsl(215 25% 27% / 0.06)',
+        'large': '0 10px 15px -3px hsl(215 25% 27% / 0.1), 0 4px 6px -2px hsl(215 25% 27% / 0.05)',
+        'glow': '0 0 20px hsl(217 91% 60% / 0.3)',
       },
     },
   },
