@@ -8,62 +8,62 @@ All colors MUST be HSL. Modern, clean, youthful aesthetic.
 
 @layer base {
   :root {
-    /* Core brand colors - Blue/Green innovation palette */
+    /* Core brand colors - Metallic Silver/Steel palette */
     --background: 249 250 251;
-    --foreground: 215 25% 27%;
+    --foreground: 210 15% 25%;
 
     /* Card and surface colors */
     --card: 0 0% 100%;
-    --card-foreground: 215 25% 27%;
+    --card-foreground: 210 15% 25%;
 
     /* Popover and overlay colors */
     --popover: 0 0% 100%;
-    --popover-foreground: 215 25% 27%;
+    --popover-foreground: 210 15% 25%;
 
-    /* Primary - Innovation Blue */
-    --primary: 217 91% 60%;
+    /* Primary - Metallic Steel */
+    --primary: 210 20% 45%;
     --primary-foreground: 0 0% 100%;
-    --primary-hover: 217 91% 55%;
+    --primary-hover: 210 20% 40%;
 
-    /* Secondary - Soft Green */
-    --secondary: 142 76% 73%;
-    --secondary-foreground: 215 25% 27%;
-    --secondary-hover: 142 76% 68%;
+    /* Secondary - Light Silver */
+    --secondary: 210 15% 85%;
+    --secondary-foreground: 210 15% 25%;
+    --secondary-hover: 210 15% 80%;
 
     /* Muted colors for subtle elements */
-    --muted: 220 14% 96%;
-    --muted-foreground: 215 16% 47%;
+    --muted: 210 15% 96%;
+    --muted-foreground: 210 12% 47%;
 
-    /* Accent - Innovation Green */
-    --accent: 159 64% 52%;
+    /* Accent - Bright Silver */
+    --accent: 210 25% 65%;
     --accent-foreground: 0 0% 100%;
-    --accent-hover: 159 64% 47%;
+    --accent-hover: 210 25% 60%;
 
     /* Status colors */
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
 
-    --success: 142 76% 50%;
+    --success: 120 50% 45%;
     --success-foreground: 0 0% 100%;
 
     --warning: 43 96% 56%;
     --warning-foreground: 0 0% 100%;
 
     /* Border and input colors */
-    --border: 220 13% 91%;
-    --input: 220 13% 91%;
-    --ring: 217 91% 60%;
+    --border: 210 15% 91%;
+    --input: 210 15% 91%;
+    --ring: 210 20% 45%;
 
-    /* Innovation gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(217 91% 60%), hsl(159 64% 52%));
-    --gradient-secondary: linear-gradient(135deg, hsl(142 76% 73%), hsl(217 91% 70%));
+    /* Metallic gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(210 20% 45%), hsl(210 25% 65%));
+    --gradient-secondary: linear-gradient(135deg, hsl(210 15% 85%), hsl(210 20% 75%));
     --gradient-subtle: linear-gradient(180deg, hsl(0 0% 100%), hsl(220 14% 98%));
 
     /* Modern shadows */
-    --shadow-soft: 0 1px 3px 0 hsl(215 25% 27% / 0.1), 0 1px 2px 0 hsl(215 25% 27% / 0.06);
-    --shadow-medium: 0 4px 6px -1px hsl(215 25% 27% / 0.1), 0 2px 4px -1px hsl(215 25% 27% / 0.06);
-    --shadow-large: 0 10px 15px -3px hsl(215 25% 27% / 0.1), 0 4px 6px -2px hsl(215 25% 27% / 0.05);
-    --shadow-glow: 0 0 20px hsl(217 91% 60% / 0.3);
+    --shadow-soft: 0 1px 3px 0 hsl(210 15% 25% / 0.1), 0 1px 2px 0 hsl(210 15% 25% / 0.06);
+    --shadow-medium: 0 4px 6px -1px hsl(210 15% 25% / 0.1), 0 2px 4px -1px hsl(210 15% 25% / 0.06);
+    --shadow-large: 0 10px 15px -3px hsl(210 15% 25% / 0.1), 0 4px 6px -2px hsl(210 15% 25% / 0.05);
+    --shadow-glow: 0 0 20px hsl(210 20% 45% / 0.3);
 
     /* Smooth transitions */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -73,71 +73,71 @@ All colors MUST be HSL. Modern, clean, youthful aesthetic.
 
     /* Sidebar colors */
     --sidebar-background: 0 0% 100%;
-    --sidebar-foreground: 215 25% 27%;
-    --sidebar-primary: 217 91% 60%;
+    --sidebar-foreground: 210 15% 25%;
+    --sidebar-primary: 210 20% 45%;
     --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 220 14% 96%;
-    --sidebar-accent-foreground: 215 25% 27%;
-    --sidebar-border: 220 13% 91%;
-    --sidebar-ring: 217 91% 60%;
+    --sidebar-accent: 210 15% 96%;
+    --sidebar-accent-foreground: 210 15% 25%;
+    --sidebar-border: 210 15% 91%;
+    --sidebar-ring: 210 20% 45%;
   }
 
   .dark {
-    --background: 240 10% 4%;
-    --foreground: 280 20% 90%;
+    --background: 210 15% 8%;
+    --foreground: 210 15% 90%;
 
-    --card: 240 15% 8%;
-    --card-foreground: 280 20% 90%;
+    --card: 210 20% 12%;
+    --card-foreground: 210 15% 90%;
 
-    --popover: 240 15% 8%;
-    --popover-foreground: 280 20% 90%;
+    --popover: 210 20% 12%;
+    --popover-foreground: 210 15% 90%;
 
-    --primary: 270 100% 70%;
-    --primary-foreground: 240 10% 4%;
-    --primary-hover: 270 100% 65%;
+    --primary: 210 30% 75%;
+    --primary-foreground: 210 15% 8%;
+    --primary-hover: 210 30% 70%;
 
-    --secondary: 260 30% 20%;
-    --secondary-foreground: 280 20% 90%;
-    --secondary-hover: 260 30% 25%;
+    --secondary: 210 20% 20%;
+    --secondary-foreground: 210 15% 90%;
+    --secondary-hover: 210 20% 25%;
 
-    --muted: 240 15% 12%;
-    --muted-foreground: 260 15% 65%;
+    --muted: 210 20% 15%;
+    --muted-foreground: 210 15% 65%;
 
-    --accent: 290 100% 75%;
-    --accent-foreground: 240 10% 4%;
-    --accent-hover: 290 100% 70%;
+    --accent: 210 35% 80%;
+    --accent-foreground: 210 15% 8%;
+    --accent-hover: 210 35% 75%;
 
     --destructive: 0 84% 60%;
-    --destructive-foreground: 280 20% 90%;
+    --destructive-foreground: 210 15% 90%;
 
     --success: 120 100% 50%;
-    --success-foreground: 240 10% 4%;
+    --success-foreground: 210 15% 8%;
 
     --warning: 45 100% 60%;
-    --warning-foreground: 240 10% 4%;
+    --warning-foreground: 210 15% 8%;
 
-    --border: 260 20% 18%;
-    --input: 240 15% 12%;
-    --ring: 270 100% 70%;
+    --border: 210 20% 18%;
+    --input: 210 20% 15%;
+    --ring: 210 30% 75%;
 
-    /* Cosmic universe gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(270 100% 70%), hsl(290 100% 75%), hsl(250 80% 60%));
-    --gradient-secondary: linear-gradient(135deg, hsl(240 15% 8%), hsl(260 30% 20%), hsl(280 40% 15%));
-    --gradient-subtle: linear-gradient(180deg, hsl(240 10% 4%), hsl(240 15% 8%), hsl(260 20% 6%));
-    --gradient-cosmic: linear-gradient(135deg, hsl(270 100% 20%), hsl(290 80% 30%), hsl(250 60% 25%));
-    --gradient-nebula: linear-gradient(135deg, hsl(280 100% 50%), hsl(270 80% 40%), hsl(260 90% 60%));
+    /* Dark metallic gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(210 30% 75%), hsl(210 35% 80%), hsl(210 25% 70%));
+    --gradient-secondary: linear-gradient(135deg, hsl(210 20% 12%), hsl(210 20% 20%), hsl(210 25% 15%));
+    --gradient-subtle: linear-gradient(180deg, hsl(210 15% 8%), hsl(210 20% 12%), hsl(210 15% 10%));
+    --gradient-cosmic: linear-gradient(135deg, hsl(210 25% 25%), hsl(210 30% 35%), hsl(210 20% 30%));
+    --gradient-nebula: linear-gradient(135deg, hsl(210 40% 60%), hsl(210 35% 50%), hsl(210 45% 70%));
 
-    --shadow-glow: 0 0 30px hsl(270 100% 70% / 0.4), 0 0 60px hsl(290 100% 75% / 0.2);
-    --shadow-cosmic: 0 4px 30px hsl(270 100% 50% / 0.3), inset 0 1px 0 hsl(280 50% 50% / 0.1);
+    --shadow-glow: 0 0 30px hsl(210 30% 75% / 0.4), 0 0 60px hsl(210 35% 80% / 0.2);
+    --shadow-cosmic: 0 4px 30px hsl(210 30% 60% / 0.3), inset 0 1px 0 hsl(210 25% 60% / 0.1);
 
-    --sidebar-background: 240 10% 4%;
-    --sidebar-foreground: 280 20% 90%;
-    --sidebar-primary: 270 100% 70%;
-    --sidebar-primary-foreground: 240 10% 4%;
-    --sidebar-accent: 240 15% 12%;
-    --sidebar-accent-foreground: 280 20% 90%;
-    --sidebar-border: 260 20% 18%;
-    --sidebar-ring: 270 100% 70%;
+    --sidebar-background: 210 15% 8%;
+    --sidebar-foreground: 210 15% 90%;
+    --sidebar-primary: 210 30% 75%;
+    --sidebar-primary-foreground: 210 15% 8%;
+    --sidebar-accent: 210 20% 15%;
+    --sidebar-accent-foreground: 210 15% 90%;
+    --sidebar-border: 210 20% 18%;
+    --sidebar-ring: 210 30% 75%;
   }
 }
 
@@ -156,7 +156,7 @@ All colors MUST be HSL. Modern, clean, youthful aesthetic.
 }
 
 @layer components {
-  /* Innovation-specific component styles */
+  /* Metallic-specific component styles */
   .innovation-card {
     @apply bg-card rounded-xl border shadow-soft transition-all duration-300 hover:shadow-medium hover:-translate-y-1;
   }
