@@ -45,7 +45,7 @@ const Index = () => {
             <div className="space-y-4">
               <h1 className="text-5xl md:text-7xl font-bold tracking-tight">
                 <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-                  InnovatU
+                  INNOVEXA
                 </span>
               </h1>
               <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
@@ -58,7 +58,7 @@ const Index = () => {
               <Button 
                 size="lg" 
                 className="gradient-primary text-white shadow-glow hover:shadow-large text-lg px-8 py-6"
-                onClick={() => navigate("/ideas")}
+                onClick={() => navigate("/innovation")}
               >
                 <Lightbulb className="mr-2 h-5 w-5" />
                 Explore Ideas
@@ -142,7 +142,7 @@ const Index = () => {
             <Button 
               variant="outline" 
               size="lg"
-              onClick={() => navigate("/ideas")}
+              onClick={() => navigate("/innovation")}
               className="hover:bg-muted"
             >
               View All Projects
@@ -175,7 +175,7 @@ const Index = () => {
                 <Button 
                   size="lg" 
                   variant="outline"
-                  onClick={() => navigate("/community")}
+                  onClick={() => navigate("/innovation")}
                 >
                   Explore Community
                 </Button>
