@@ -5,8 +5,7 @@ import { User, Lightbulb, FolderOpen, Users, Building2 } from "lucide-react";
 export function Navigation() {
   const navItems = [
     { to: "/profile", icon: User, label: "Profile" },
-    { to: "/ideas", icon: Lightbulb, label: "Ideas" },
-    { to: "/community", icon: Users, label: "Community" },
+    { to: "/innovation", icon: Lightbulb, label: "Innovation" },
     { to: "/industry", icon: Building2, label: "Industry" },
   ];
 

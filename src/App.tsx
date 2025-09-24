@@ -6,9 +6,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Navigation } from "@/components/Navigation";
 import Index from "./pages/Index";
 import Profile from "./pages/Profile";
-import IdeaBoard from "./pages/IdeaBoard";
+import InnovationHub from "./pages/InnovationHub";
 import ProjectPage from "./pages/ProjectPage";
-import CommunityFeed from "./pages/CommunityFeed";
 import IndustryDashboard from "./pages/IndustryDashboard";
 import NotFound from "./pages/NotFound";
 
@@ -26,9 +25,8 @@ const App = () => (
             <Routes>
               <Route path="/" element={<Index />} />
               <Route path="/profile" element={<Profile />} />
-              <Route path="/ideas" element={<IdeaBoard />} />
+              <Route path="/innovation" element={<InnovationHub />} />
               <Route path="/project/:id" element={<ProjectPage />} />
-              <Route path="/community" element={<CommunityFeed />} />
               <Route path="/industry" element={<IndustryDashboard />} />
               {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
               <Route path="*" element={<NotFound />} />
